@@ -19,6 +19,7 @@
 		6BA24CC4233D3B1E00C8EFD8 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC3233D3B1E00C8EFD8 /* AppErrors.swift */; };
 		6BA24CC6233D3B3700C8EFD8 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC5233D3B3700C8EFD8 /* NetworkHelper.swift */; };
 		6BA24CC8233D55B000C8EFD8 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC7233D55B000C8EFD8 /* ImageHelper.swift */; };
+		6BA24CCA233D66D600C8EFD8 /* CountriesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC9233D66D600C8EFD8 /* CountriesDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6BA24CC3233D3B1E00C8EFD8 /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
 		6BA24CC5233D3B3700C8EFD8 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		6BA24CC7233D55B000C8EFD8 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		6BA24CC9233D66D600C8EFD8 /* CountriesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				6BA24CC3233D3B1E00C8EFD8 /* AppErrors.swift */,
 				6BA24CC5233D3B3700C8EFD8 /* NetworkHelper.swift */,
 				6BA24CA1233D22B200C8EFD8 /* Main.storyboard */,
+				6BA24CC9233D66D600C8EFD8 /* CountriesDetailViewController.swift */,
 				6BA24CBD233D39D100C8EFD8 /* CountryCollectionViewCell.swift */,
 				6BA24CA4233D22B300C8EFD8 /* Assets.xcassets */,
 				6BA24CA6233D22B300C8EFD8 /* LaunchScreen.storyboard */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BA24CC6233D3B3700C8EFD8 /* NetworkHelper.swift in Sources */,
+				6BA24CCA233D66D600C8EFD8 /* CountriesDetailViewController.swift in Sources */,
 				6BA24CC4233D3B1E00C8EFD8 /* AppErrors.swift in Sources */,
 				6BA24CC0233D3AF300C8EFD8 /* structs.swift in Sources */,
 				6BA24CA0233D22B200C8EFD8 /* ViewController.swift in Sources */,

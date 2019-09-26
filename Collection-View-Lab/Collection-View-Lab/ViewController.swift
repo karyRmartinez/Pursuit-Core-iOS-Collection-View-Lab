@@ -41,10 +41,27 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
+    
+    
+    
 }
 
 extension ViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let specificCountry = Countries[indexPath.row]
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let detailVC = mainStoryboard.instantiateViewController(withIdentifier: "DetailVC") as! CountriesDetailViewController
+        
+        detailVC.currentCountry = specificCountry
+     
+        self.navigationController?.pushViewController(detailVC, animated: true)
+        
+//        print("You have selected \(Countries[indexPath.row])")
+    }
 }
 
 extension ViewController: UICollectionViewDataSource {
