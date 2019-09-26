@@ -58,10 +58,19 @@ extension ViewController: UICollectionViewDataSource {
         cell.countryName.text = currentCountry.name
         cell.population.text = "\(currentCountry.population)"
         cell.capital.text = currentCountry.capital
+        
+        ImageHelper.shared.getImage(urlStr: currentCountry.ImageURL) { (result) in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let image):
+                    cell.countryImage.image = image
+                case .failure(let error):
+                    print(error)
+                }
+            }
+        }
         return cell
     }
-    
-    
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {

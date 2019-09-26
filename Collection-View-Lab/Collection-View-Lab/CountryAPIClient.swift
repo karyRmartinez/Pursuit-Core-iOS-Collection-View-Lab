@@ -9,16 +9,14 @@
 import Foundation
 
 struct CountryAPIClient {
-    
+   
     // MARK: - Static Properties
     
     static let manager = CountryAPIClient()
     
     // MARK: - Instance Methods
-//
-//    static func getElementLargeImageURLString(from name: String) -> String {
-//        return "http://images-of-elements.com/\(name.lowercased()).jpg"
-//    }
+
+    
     
     func getCountry(completionHandler: @escaping (Result<[Country], AppError>) -> ())  {
         NetworkHelper.manager.performDataTask(withUrl: countryURL, andMethod: .get) { (results) in

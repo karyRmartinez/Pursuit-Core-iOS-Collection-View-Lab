@@ -18,6 +18,7 @@
 		6BA24CC2233D3B0900C8EFD8 /* CountryAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC1233D3B0900C8EFD8 /* CountryAPIClient.swift */; };
 		6BA24CC4233D3B1E00C8EFD8 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC3233D3B1E00C8EFD8 /* AppErrors.swift */; };
 		6BA24CC6233D3B3700C8EFD8 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC5233D3B3700C8EFD8 /* NetworkHelper.swift */; };
+		6BA24CC8233D55B000C8EFD8 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA24CC7233D55B000C8EFD8 /* ImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6BA24CC1233D3B0900C8EFD8 /* CountryAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAPIClient.swift; sourceTree = "<group>"; };
 		6BA24CC3233D3B1E00C8EFD8 /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
 		6BA24CC5233D3B3700C8EFD8 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		6BA24CC7233D55B000C8EFD8 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				6BA24C9D233D22B200C8EFD8 /* AppDelegate.swift */,
 				6BA24C9F233D22B200C8EFD8 /* ViewController.swift */,
+				6BA24CC7233D55B000C8EFD8 /* ImageHelper.swift */,
 				6BA24CBF233D3AF300C8EFD8 /* structs.swift */,
 				6BA24CC1233D3B0900C8EFD8 /* CountryAPIClient.swift */,
 				6BA24CC3233D3B1E00C8EFD8 /* AppErrors.swift */,
@@ -219,6 +222,7 @@
 				6BA24CBE233D39D100C8EFD8 /* CountryCollectionViewCell.swift in Sources */,
 				6BA24CC2233D3B0900C8EFD8 /* CountryAPIClient.swift in Sources */,
 				6BA24C9E233D22B200C8EFD8 /* AppDelegate.swift in Sources */,
+				6BA24CC8233D55B000C8EFD8 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
