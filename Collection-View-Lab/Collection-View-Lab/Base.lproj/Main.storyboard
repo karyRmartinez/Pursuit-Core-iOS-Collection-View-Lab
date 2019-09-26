@@ -20,7 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Wpy-q4-daV">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ceA-fD-Z73">
                                     <size key="itemSize" width="179" height="164"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -62,6 +62,7 @@
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <color key="backgroundColor" red="0.92201858758926392" green="0.23794665932655334" blue="0.78161454200744629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="capital" destination="2Zw-j5-qaE" id="Zwg-Ea-0wh"/>
                                             <outlet property="countryImage" destination="4wl-lB-WQs" id="Av2-qG-lRM"/>
@@ -70,6 +71,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="L1O-K8-4Te"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QP8-Oa-j62"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -81,10 +86,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="countryTable" destination="Wpy-q4-daV" id="LDD-9A-WkF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="515.94202898550725" y="118.52678571428571"/>
+            <point key="canvasLocation" x="-65" y="42"/>
         </scene>
     </scenes>
 </document>

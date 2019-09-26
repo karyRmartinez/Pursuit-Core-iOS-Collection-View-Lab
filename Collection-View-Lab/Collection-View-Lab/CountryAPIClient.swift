@@ -20,7 +20,7 @@ struct CountryAPIClient {
 //        return "http://images-of-elements.com/\(name.lowercased()).jpg"
 //    }
     
-    func getElements(completionHandler: @escaping (Result<[Country], AppError>) -> ())  {
+    func getCountry(completionHandler: @escaping (Result<[Country], AppError>) -> ())  {
         NetworkHelper.manager.performDataTask(withUrl: countryURL, andMethod: .get) { (results) in
             switch results {
             case .failure(let error):
